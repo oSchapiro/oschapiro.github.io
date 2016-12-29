@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <title>Video</title>
+      <link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen">
+      <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+   </head>
+   <body>
+      <div id = "def_size">
+         <div id = "single">
+            <ul id = "level">
+               <li><a href="https://zenit.senecac.on.ca/~int222_151e23">My zenit Account</a></li>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="gallery.html">Photo Gallery</a></li>
+               <li><a href="video.html">Video</a></li>
+               <li><a href="audio.html">Audio</a></li>
+               <li><a href="html5.html">HTML5</a></li>
+               <li><a href="tables.html">Tables with CSS</a></li>
+               <li><a href="mortgage/index.html">Forms</a></li>
+               <li><a href="css/sitecss.css">CSS Used</a></li>
+               <li><a href="extra/index.html">Extra</a></li>
+            </ul>
+         </div>
+         <div id = "main_chunk">
+            <h1 class = "title">Video</h1>
+            <div class = "dialogue_box">
+               <h4>Video implementations in HTML5</h4>
+               <p>A new feature in HTML5 allows developers to embed videos straight into the code.
+                  This is useful since before HTML5, it was necessary to use a plugin such as 
+                  flash to get a video to play successfully. This video is a promotional video
+                  released by Seneca, promoting the Computer Systems Technology department.
+               </p>
+            </div>
+            <div class = "dialogue_box">
+               <h4>Seneca College - Computer Systems Technology</h4>
+               <video width="400" controls>
+                  <source src="misc/Seneca_College_Computer_Systems_Technology.mp4" type="video/mp4">
+               </video>
+            </div>
+         </div>
+         <div id = "side_chunk">
+            <h4 class = "text_align">Video Control Options</h4>
+            <div class = "side_dialogue_box">
+               <button class = "control_options">Play</button>
+               <button class = "control_options">Pause</button>
+               <button class = "control_options">Restart</button>
+               <button class = "control_options">Show Controls</button>
+               <button class = "control_options">Remove Controls</button>
+            </div>
+            <div id = "split_bar"></div>
+            <h4 class = "text_align">Social Media Links</h4>
+            <div style = "background: url('images/social-media.png') no-repeat;" id = "sm_links">
+               <a href="https://www.facebook.com/" class = "sm_cell" id = "facebook"></a>
+               <a href="https://twitter.com/" class = "sm_cell" id = "twitter"></a>
+               <a href="https://www.pinterest.com/" class = "sm_cell" id = "pinterest"></a>
+               <a href="https://www.youtube.com/" class = "sm_cell" id = "youtube"></a>
+               <a href="https://www.tumblr.com/" class = "sm_cell" id = "tumblr"></a>
+               <a href="http://www.skype.com/en/" class = "sm_cell" id = "skype"></a>
+               <a href="http://www.reddit.com" class = "sm_cell" id = "reddit"></a>
+               <a href="https://ca.yahoo.com/?p=us" class = "sm_cell" id = "yahoo"></a>
+            </div>
+         </div>
+         <div id = "script_align" class = "text_align">
+            <script>
+               var dt=new Date(document.lastModified);   // Get document last modified date
+               document.write('<hr />This page was last updated on '+dt.toLocaleString());  
+            </script>
+         </div>
+      </div>
+   </body>
+</html>

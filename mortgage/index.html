@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <title>Forms</title>
+      <link rel="stylesheet" href="normalize.css" type="text/css" media="screen">
+      <link rel="stylesheet" href="mortgage.css" type="text/css" media="screen">
+   </head>
+   <body>
+      <div id = "main_form">
+         <div id = "single">
+            <ul id = "level">
+               <li><a href="https://zenit.senecac.on.ca/~int222_151e23">My zenit Account</a></li>
+               <li><a href="../index.html">Home</a></li>
+               <li><a href="../gallery.html">Photo Gallery</a></li>
+               <li><a href="../video.html">Video</a></li>
+               <li><a href="../audio.html">Audio</a></li>
+               <li><a href="../html5.html">HTML5</a></li>
+               <li><a href="../tables.html">Tables with CSS</a></li>
+               <li><a href="../mortgage/index.html">Forms</a></li>
+               <li><a href="../css/sitecss.css">CSS Used</a></li>
+               <li><a href="../extra/index.html">Extra</a></li>
+            </ul>
+         </div>
+         <form method="post" name="mortgage" action="https://zenit.senecac.on.ca/~emile.ohan/cgi-bin/echo-p.pl">
+            <input type="hidden" name="jsActive" id="jsActive" value="n"/>
+            <input type="hidden" name="lastName" id="lastName" value="Schapiro"/>
+            <input type="hidden" name="studentId" id="studentId" value="023796139"/>
+            <input type="hidden" name="zenitAccount" id="zenitAccounhttps://zenit.senecac.on.ca/~emile.ohan/cgi-bin/view-source.cgi?request=https://zenit.senecac.on.ca/~emile.ohan/int222/examples/forms/fms-11.htmlt" value="https://zenit.senecac.on.ca/~int222_151e23/"/>
+            <div id = "left_form">
+               <h2>Mortgage Calculation</h2>
+               <div class = "red_bar"></div>
+               <div class = "block">
+                  <h3>Mortgage Details</h3>
+                  Amortization <input type="text" name="amortization" id = "amortization" size = "3" maxlength = "2">
+                  <br><br>
+                  Interest Rate <input type="text" name="intRate" id = "intRate" size = "7" maxlength = "6">
+                  <br><br>
+                  Year <input type="text" name="mortYear" id = "mortYear" size = "5" maxlength = "4">
+                  <br><br>
+                  Mortgage Month <input type="text" name="mortMonth" id = "mortMonth" size = "5" maxlength = "4">
+               </div>
+               <div class = "red_bar"></div>
+               <p><input type="submit"/></p>
+            </div>
+            <div id = "mid_form">
+               <div class = "block">
+                  <h3>Personal Information</h3>
+                  Client ID <input type="text" name="userId" id = "userId" size = "10" maxlength = "10">
+                  <br><br>
+                  Client Name <input type="text" name="client" id = "client">
+               </div>
+               <div class = "block">
+                  <h3>Financial / Property Information</h3>
+                  Property Value <input type="text" name="propValue" id = "propValue" maxlength = "10">
+                  <br><br>
+                  Down Payment <input type="text" name="downPay" id = "downPay" size = "7" maxlength = "6">
+                  <br><br>
+                  <table>
+                     <tr>
+                        <td>
+                           <p>Location</p>
+                           <select name="propLocation" id="propLocation" size="4">
+                              <option disabled>Select Location</option>
+                              <option value="Toronto">Toronto</option>
+                              <option value="Quebec">Quebec</option>
+                              <option value="New York">New York</option>
+                              <option value="Boston">Boston</option>
+                           </select>
+                        </td>
+                        <td>
+                           <p>Income Range</p>
+                           <select name="income" id="income" size="4">
+                              <option disabled>Select Income</option>
+                              <option value="Under 30,000">Under 30,000</option>
+                              <option value="30,001 - 40,000">30,001 - 40,000</option>
+                              <option value="40,001 - 50,000">40,001 - 50,000</option>
+                              <option value="50,001 - 60,000">50,001 - 60,000</option>
+                              <option value="60,001 - 70,000">60,001 - 70,000</option>
+                              <option value="70,001 - 80,000">70,001 - 80,000</option>
+                              <option value="80,001 - 90,000">80,001 - 90,000</option>
+                              <option value="90,001 - 100,000">90,001 - 100,000</option>
+                              <option value="Over 100,001">Over 100,001</option>
+                           </select>
+                        </td>
+                     </tr>
+                  </table>
+                  <div class = "red_bar"></div>
+                  <h4>Property Type</h4>
+                  <table>
+                     <tr>
+                        <td><input type="radio" name="propDetails" class="propDetails" value="Detached" />Detached</td>
+                        <td><input type="radio" name="propDetails" class="propDetails" value="Semi Detached" />Semi Detached</td>
+                        <td><input type="radio" name="propDetails" class="propDetails" value="Town House" />Town House</td>
+                     </tr>
+                     <tr>
+                        <td><input type="radio" name="propDetails" class="propDetails" value="Row House" />Row House</td>
+                        <td><input type="radio" name="propDetails" class="propDetails" value="Condo" />Condo</td>
+                        <td><input type="radio" name="propDetails" class="propDetails" value="Vacant Land" />Vacant Land</td>
+                     </tr>
+                  </table>
+               </div>
+               <div class = "block">
+                  <h3>Special Instructions</h3>
+                  <textarea rows="4" cols="30" name = "comments" id = "comments"></textarea>
+               </div>
+            </div>
+            <div id = "right_form">
+               <div class = "block">
+                  <h3>Reserved for Assignment #3</h3>
+                  <input type="text" name="payment" id = "payment" size = "8" maxlength = "8" readonly>
+                  <br><br>
+                  <input type="button" value="Calculate Monthly Payment" name="entry5"/>
+               </div>
+               <div class = "block">
+                  <h3>Reserved for Assignment #3</h3>
+                  <textarea rows="28" style = "width: 340px" placeholder="<------------------------ 340 px ------------------------>"></textarea>
+               </div>
+            </div>
+         </form>
+         <div id = "script_align" class = "text_align">
+            <script>
+               var dt=new Date(document.lastModified);   // Get document last modified date
+               document.write('<hr />This page was last updated on '+dt.toLocaleString());  
+            </script>
+         </div>
+      </div>
+   </body>
+</html>

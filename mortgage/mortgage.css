@@ -1,0 +1,66 @@
+div#main_form {
+    display: inline-block;
+    width: 1265px;
+    position: relative;
+    left: 50%;
+    margin-left: -600px;
+}
+div#single ul#level {
+    margin: 0;
+    padding: 5px;
+    background-color: yellow;
+    height: 25px;
+    width: 1200px;
+}
+div#single ul#level li {
+    display: inline;
+    color: #228B22;
+    padding: 6px;
+    border-width: 1px;
+    border-color: white;
+    border-right-style: solid;
+}
+div#left_form {
+    display: inline-block;
+    width: 300px;
+    height: 700px;
+    position: relative;
+    vertical-align: top;
+}
+div#mid_form {
+    display: inline-block;
+    width: 525px;
+    border: 1px solid black;
+    position: relative;
+    vertical-align: top;
+}
+div#right_form {
+    display: inline-block;
+    width: 380px;
+    border: 1px solid black;
+    position: relative;
+    vertical-align: top;
+}
+#propLocation {
+    margin-right: 30px;
+}
+#income {} .propDetails {
+    margin-left: 30px;
+}
+.red_bar {
+    margin: 10px;
+    padding: 5px;
+    background-color: red;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+.block {
+    display: block;
+    border-width: 5px;
+    border-color: green;
+    border-style: groove ridge ridge groove;
+    margin: 10px;
+    padding: 5px;
+    vertical-align: top;
+}
