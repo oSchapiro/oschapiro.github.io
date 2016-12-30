@@ -46,7 +46,7 @@
      background-color: grey;
      position: bottom;
      left: 50%;
-     margin-left: -600px;
+     margin-left: -50%;
      margin-top: 10px;
  }
  #split_bar {
