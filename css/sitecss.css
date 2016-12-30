@@ -20,6 +20,7 @@ l div#single ul#level {
      height:100%;
      width: 100%;
      position: relative;
+     left: 50%;
 
  }
  div#main_chunk {
