@@ -29,7 +29,7 @@
      vertical-align: top;
      border-width: 10px;
      border-color: azure;
-     border-style: inset;
+     border-style: outset;
  }
  div#side_chunk {
      display: inline-block;
@@ -40,7 +40,7 @@
      vertical-align: top;
      border-width: 10px;
      border-color: azure;
-     border-style: inset;
+     border-style: outset;
  }
  div#script_align {
      bottom: 10px;
