@@ -3,7 +3,7 @@ l div#single ul#level {
      padding: 5px;
      background-color: yellow;
      height: 25px;
-     width: 1200px;
+     width: 100%;
      border-style: ridge;
      border-width: medium;
  }
