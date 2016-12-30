@@ -15,7 +15,9 @@
      padding: 6px;
      border-width: 3px;
      border-color: azure;
-     border-style: groove;
+     border-bottom-style: groove;
+     border-left-style: groove;
+     border-left-style: groove;
      border-radius: 5px;
  }
  div#def_size {
