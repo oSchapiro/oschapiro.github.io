@@ -13,14 +13,9 @@
      display: inline;
      color: #228B22;
      padding: 6px;
-     border-top-width: 0px;
-     border-bottom-width: 3px;
-     border-left-width: 3px;
-     border-right-width: 3px;
+     border-width: 3px;
      border-color: azure;
-     border-bottom-style: groove;
-     border-left-style: groove;
-     border-right-style: groove;
+     border-style: groove;
      border-radius: 5px;
  }
  div#def_size {
