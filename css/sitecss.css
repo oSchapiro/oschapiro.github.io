@@ -30,6 +30,7 @@
      border-width: 10px;
      border-color: azure;
      border-style: outset;
+     border-radius: 5px;
  }
  div#side_chunk {
      display: inline-block;
@@ -41,6 +42,7 @@
      border-width: 10px;
      border-color: azure;
      border-style: outset;
+     border-radius: 5px;
  }
  div#script_align {
      bottom: 10px;
@@ -122,6 +124,7 @@
      border-width: 5px;
      border-color: azure;
      border-style: inset;
+     border-radius: 5px;
  }
  .side_dialogue_box {
      margin: 10px;
@@ -130,6 +133,7 @@
      border-width: 5px;
      border-color: azure;
      border-style: inset;
+     border-radius: 5px;
  }
  .link_box {
      margin-left: 10px;
