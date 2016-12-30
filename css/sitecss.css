@@ -41,7 +41,7 @@
  }
  div#script_align {
      bottom: 10px;
-     width: 1200px;
+     width: 100%;
      display: inline-block;
      background-color: grey;
      position: bottom;
