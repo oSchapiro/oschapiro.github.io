@@ -26,21 +26,21 @@ div#single ul#level li {
 }
 div#left_form {
     display: inline-block;
-    width: 300px;
+    width: 25%;
     height: 700px;
     position: relative;
     vertical-align: top;
 }
 div#mid_form {
     display: inline-block;
-    width: 525px;
+    width: 40%;
     border: 1px solid black;
     position: relative;
     vertical-align: top;
 }
 div#right_form {
     display: inline-block;
-    width: 380px;
+    width: 25%;
     border: 1px solid black;
     position: relative;
     vertical-align: top;
