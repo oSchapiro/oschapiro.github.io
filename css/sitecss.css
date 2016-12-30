@@ -3,9 +3,7 @@
      padding: 5px;
      background-color: yellow;
      height: 25px;
-     width: 1200px;
-     border-style: ridge;
-     border-width: medium;
+     width: 100%;
  }
  div#single ul#level li {
      display: inline;
@@ -18,14 +16,15 @@
  div#def_size {
      display: inline-block;
      width: 100%;
-     position: relative;
+	 height: 100%;
+     
  }
  div#main_chunk {
      display: inline-block;
      margin: 10px;
      padding: 0;
      background-color: grey;
-     width: 850px;
+     width: 70%;
      vertical-align: top;
  }
  div#side_chunk {
@@ -33,18 +32,18 @@
      margin: 10px;
      padding: 0;
      background-color: grey;
-     width: 300px;
+     width: 25%;
      vertical-align: top;
  }
  div#script_align {
      bottom: 10px;
-     width: 1200px;
+     width: 100%;
      display: inline-block;
      background-color: grey;
      position: relative;
-     left: 50%;
-     margin-left: -600px;
      margin-top: 10px;
+	 vertical-align: bottom;
+	 top: 90%;
  }
  #split_bar {
      margin: 10px;
