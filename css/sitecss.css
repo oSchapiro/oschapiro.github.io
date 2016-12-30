@@ -1,4 +1,4 @@
- div#single ul#level {
+l div#single ul#level {
      margin: 0;
      padding: 5px;
      background-color: yellow;
@@ -19,7 +19,7 @@
      display: inline-block;
      height:100%;
      width: 100%;
-     position: fixed;
+     position: relative;
 
  }
  div#main_chunk {
