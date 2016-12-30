@@ -4,6 +4,7 @@
      background-color: darkgrey;
      height: 25px;
      width: 100%;
+     border-width: 5px;
      border-color: azure;
      border-style: outset;
      border-radius: 5px;
