@@ -19,6 +19,7 @@
      display: inline-block;
      width: 100%;
      position: relative;
+     left: 100%;
  }
  div#main_chunk {
      display: inline-block;
