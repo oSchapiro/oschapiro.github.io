@@ -44,7 +44,7 @@
      width: 1200px;
      display: inline-block;
      background-color: grey;
-     position: relative;
+     position: bottom;
      left: 50%;
      margin-left: -600px;
      margin-top: 10px;
