@@ -2,6 +2,7 @@
      margin: 0;
      padding: 5px;
      background-color: yellow;
+     border-style: ridge;
      height: 25px;
      width: 1200px;
  }
