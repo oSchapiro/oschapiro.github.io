@@ -11,7 +11,6 @@
  }
  div#single ul#level li {
      display: inline;
-     color: #228B22;
      padding: 6px;
      border-width: 3px;
      border-color: azure;
@@ -163,6 +162,10 @@ a:active {
      margin-bottom: 1px;
      padding: 5px;
      background-color: lightgrey;
+     border-width: 3px;
+     border-color: azure;
+     border-style: groove;
+     border-radius: 5px;
      font-size: 70%;
  }
  .title {
