@@ -133,10 +133,10 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    background-color: grey;
+    background-color: lightgrey;
 }
 a:active {
-    background-color: lightgrey;
+    background-color: grey;
 }
  .dialogue_box {
      margin: 10px;
