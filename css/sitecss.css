@@ -27,6 +27,9 @@
      background-color: grey;
      width: 70%;
      vertical-align: top;
+     border-width: 10px;
+     border-color: grey;
+     border-style: inset;
  }
  div#side_chunk {
      display: inline-block;
@@ -35,6 +38,9 @@
      background-color: grey;
      width: 25%;
      vertical-align: top;
+     border-width: 10px;
+     border-color: grey;
+     border-style: inset;
  }
  div#script_align {
      bottom: 10px;
