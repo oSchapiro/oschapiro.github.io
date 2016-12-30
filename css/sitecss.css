@@ -124,6 +124,7 @@
  }
 a{
     color:black;
+    font-size: 70%;
 }
 a:link {
     text-decoration: none;
@@ -132,7 +133,7 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    background-color: darkgrey;
+    background-color: grey;
 }
 a:active {
     background-color: lightgrey;
