@@ -20,7 +20,6 @@
      width: 100%;
      position: relative;
      left: 50%;
-     margin-left: -600px;
  }
  div#main_chunk {
      display: inline-block;
