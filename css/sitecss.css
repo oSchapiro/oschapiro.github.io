@@ -37,7 +37,7 @@
      padding: 0;
      background-color: grey;
      width: 300px;
-     vertical-align: top;
+     vertical-align: baseline;
  }
  div#script_align {
      bottom: 10px;
