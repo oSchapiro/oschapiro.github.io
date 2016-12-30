@@ -119,7 +119,7 @@
      margin: 10px;
      padding: 5px;
      background-color: lightgrey;
-     border-width: 10px;
+     border-width: 5px;
      border-color: azure;
      border-style: inset;
  }
@@ -127,9 +127,9 @@
      margin: 10px;
      padding: 5px;
      background-color: lightgrey;
-     border-width: 2px;
+     border-width: 5px;
      border-color: azure;
-     border-style: solid;
+     border-style: inset;
  }
  .link_box {
      margin-left: 10px;
