@@ -1,11 +1,9 @@
-l div#single ul#level {
+ div#single ul#level {
      margin: 0;
      padding: 5px;
      background-color: yellow;
      height: 25px;
      width: 1200px;
-     border-style: ridge;
-     border-width: medium;
  }
  div#single ul#level li {
      display: inline;
@@ -17,11 +15,10 @@ l div#single ul#level {
  }
  div#def_size {
      display: inline-block;
-     height:100%;
-     width: 100%;
+     width: 1200px;
      position: relative;
      left: 50%;
-
+     margin-left: -600px;
  }
  div#main_chunk {
      display: inline-block;
@@ -37,16 +34,16 @@ l div#single ul#level {
      padding: 0;
      background-color: grey;
      width: 300px;
-     vertical-align: baseline;
+     vertical-align: top;
  }
  div#script_align {
      bottom: 10px;
-     width: 100%;
+     width: 1200px;
      display: inline-block;
      background-color: grey;
-     position: bottom;
+     position: relative;
      left: 50%;
-     margin-left: -50%;
+     margin-left: -600px;
      margin-top: 10px;
  }
  #split_bar {
