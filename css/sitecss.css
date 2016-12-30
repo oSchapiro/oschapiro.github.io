@@ -9,7 +9,6 @@ l div#single ul#level {
  div#single ul#level li {
      display: inline;
      color: #228B22;
-     width: 100%;
      padding: 6px;
      border-width: 1px;
      border-color: white;
