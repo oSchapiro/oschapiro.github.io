@@ -122,6 +122,9 @@
      top: 57px;
      left: 165px;
  }
+a{
+    color:black;
+}
 a:link {
     text-decoration: none;
 }
@@ -129,10 +132,10 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+    background-color: darkgrey;
 }
 a:active {
-    text-decoration: underline;
+    background-color: lightgrey;
 }
  .dialogue_box {
      margin: 10px;
